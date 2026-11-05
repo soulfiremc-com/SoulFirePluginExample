@@ -1,11 +1,11 @@
-# SoulFirePluginExample
+# Soulfire plugin example
 
-Example of how to make a plugin for SoulFire.
+Example of how to make a plugin for Soulfire.
 
-This example adds a hack jump boost to SoulFire, which by default gives the bot jump boost with the amplifier 2.
+This example adds a hack jump boost to Soulfire, which by default gives the bot jump boost with the amplifier 2.
 The amplifier and the plugin can be configured in the plugins menu under `Hack Jump Boost` and CLI flags are also registered.
 
-Read the [SoulFire Java API reference](https://jd.soulfiremc.com). Match the API to the SoulFire version pinned in `gradle/libs.versions.toml`.
+Read the [Soulfire Java API reference](https://jd.soulfiremc.com). Match the API to the Soulfire version pinned in `gradle/libs.versions.toml`.
 
 ## Development
 
