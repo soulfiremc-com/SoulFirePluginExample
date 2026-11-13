@@ -23,6 +23,6 @@ import net.fabricmc.api.ModInitializer;
 public final class Main implements ModInitializer {
     @Override
     public void onInitialize() {
-        SoulFireAPI.registerServerExtension(new ExampleServerExtension());
+        SoulFireAPI.loadPlugin(new ExampleServerExtension());
     }
 }

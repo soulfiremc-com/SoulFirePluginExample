@@ -114,7 +114,6 @@ dependencies {
     implementation(libs.fabric.loader)
 
     implementation(libs.soulfire.mod)
-    compileOnly(libs.soulfire.shared)
 
     // For code generation
     compileOnly(libs.lombok)
