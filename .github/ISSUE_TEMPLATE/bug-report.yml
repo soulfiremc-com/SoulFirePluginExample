@@ -18,7 +18,7 @@ body:
   id: version
   attributes:
     label: Versions or revision
-    description: Example source revision and tested SoulFire version
+    description: Example source revision and tested Soulfire version
   validations:
     required: true
 - type: textarea
@@ -30,7 +30,7 @@ body:
       Operating system:
       Java version:
       Example source revision:
-      SoulFire version:
+      Soulfire version:
       Minecraft and Fabric versions:
       Failed Gradle task or plugin load step:
   validations:

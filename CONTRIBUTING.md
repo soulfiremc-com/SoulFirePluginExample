@@ -1,6 +1,6 @@
 # Contributing to SoulFirePluginExample
 
-This repository demonstrates a SoulFire plugin and its mixin integration.
+This repository demonstrates a Soulfire plugin and its mixin integration.
 This guide covers local development, validation, and pull requests.
 
 ## Before you start
@@ -14,7 +14,7 @@ Report vulnerabilities privately through the [security policy](https://github.co
 ## Prepare and build
 
 Install Git and a JDK 25. Use the checked-in Gradle wrapper.
-The build needs network access for Minecraft, Fabric, Gradle, and the SoulFire artifacts pinned in `gradle/libs.versions.toml`.
+The build needs network access for Minecraft, Fabric, Gradle, and the Soulfire artifacts pinned in `gradle/libs.versions.toml`.
 Clone this repository or your fork, then run:
 
 ```bash
@@ -30,14 +30,14 @@ This plugin is not a standalone Minecraft client. The build intentionally remove
 
 - `src/main/java/com/soulfiremc/pluginexample/`: plugin registration, server extension, and mixin code.
 - `src/main/resources/`: Fabric metadata, mixin configuration, and access widener.
-- `gradle/libs.versions.toml`: Minecraft, Fabric loader, SoulFire, and Lombok pins.
+- `gradle/libs.versions.toml`: Minecraft, Fabric loader, Soulfire, and Lombok pins.
 - `buildSrc/`: Java, licensing, formatting, and analysis conventions.
 
 Keep the example small enough for a new plugin author to understand.
 Explain new extension points and update README examples with behavior changes.
 Keep the Fabric entry points, mixin configuration, and access widener aligned with Java changes.
 Do not assume that the current server release matches the pinned example dependencies.
-Include the exact tested SoulFire revision or release in your pull request.
+Include the exact tested Soulfire revision or release in your pull request.
 For dependency upgrades, update related pins together and verify the plugin on that server version.
 
 ## Style and validation
@@ -49,7 +49,7 @@ Keep license notices consistent with the material you change.
 
 Run `./gradlew build test spotlessCheck` before submission.
 The example currently has no dedicated test suite. The Gradle test task does not replace a plugin load check.
-For changed behavior, add focused tests where practical and run the JAR on a local SoulFire instance.
+For changed behavior, add focused tests where practical and run the JAR on a local Soulfire instance.
 Verify that the extension loads, its settings appear, and the changed behavior works on an owned test server.
 Include startup logs without credentials and describe any manual checks that you could not run.
 For dependency resolution failures, include the failed artifact coordinate and repository URL.

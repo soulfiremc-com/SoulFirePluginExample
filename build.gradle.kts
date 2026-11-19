@@ -12,7 +12,7 @@ tasks.named<UpdateDaemonJvm>("updateDaemonJvm") {
 allprojects {
     group = "com.soulfiremc"
     version = "1.0.0-SNAPSHOT"
-    description = "Example of how to make a plugin for SoulFire."
+    description = "Example of how to make a plugin for Soulfire."
     repositories {
         mavenLocal()
         maven("https://repo.viaversion.com") {

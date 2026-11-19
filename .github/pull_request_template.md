@@ -5,7 +5,7 @@
 
 ## Validation
 
-<!-- Record exact commands and results: ./gradlew build test spotlessCheck and plugin load checks on the named SoulFire version. -->
+<!-- Record exact commands and results: ./gradlew build test spotlessCheck and plugin load checks on the named Soulfire version. -->
 <!-- Include relevant versions, reproduction observations, or screenshots. Remove credentials and private data. -->
 <!-- Explain any checks that you could not run. -->
 

@@ -37,8 +37,8 @@ public class ExampleServerExtension extends ExternalPlugin {
     protected ExampleServerExtension() {
         super(new PluginInfo(
             "soulfire-plugin-example",
-            "SoulFire Plugin Example",
-            "An example plugin for SoulFire Server",
+            "Soulfire Plugin Example",
+            "An example plugin for Soulfire Server",
             "AlexProgrammerDE",
             "1.0.0",
             "https://soulfiremc.com"
